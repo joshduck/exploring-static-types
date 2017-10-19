@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "flow": "flow",
+    "check-flow": "flow",
     "build-flow": "babel src/ -d build/flow/",
+    "build-typescript": "tsc",
+    "build": "rimraf build/ && npm run build-flow && npm run build-typescript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "github@joshduck.com",
@@ -14,6 +16,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.57.3",
+    "rimraf": "^2.6.2",
     "typescript": "^2.5.3"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+      "module": "system",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "outDir": "build/typescript"
+  },
+  "include": [
+      "src/typescript/**/*"
+  ],
+  "exclude": []
+}

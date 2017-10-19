@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "flow": "flow",
+    "build-flow": "babel src/ -d build/flow/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "github@joshduck.com",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.57.3",
     "typescript": "^2.5.3"
   }

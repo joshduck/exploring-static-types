@@ -5,4 +5,4 @@ function ratePizza(stars: 5) {
 }
 
 ratePizza(5); // OK
-ratePizza(1); // Error!
+// ratePizza(1);

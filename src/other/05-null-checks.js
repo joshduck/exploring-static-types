@@ -1,0 +1,1 @@
+const firstItem = order.items && order.items[0] && order.items[0].name; 
